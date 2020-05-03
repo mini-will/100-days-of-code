@@ -2,8 +2,6 @@
 
 ### 0 日目: 2020 年 5 月 3 日
 
-**今日の進捗**: 計算機アプリの CSS を修正して、canvas の機能に取り掛かった。
-
-**思ったこと** CSS にはとても苦労したけど、少しずつ上達してきてる気がする。Canvas はまだ始めたばっかりだけど、基本的な機能はいくつか理解できてきた。
-
-**リンク** [計算機アプリ](http://www.example.com)
+- 今日の進捗: Udemy で Nuxt.js の入門コースに取り掛かる
+- 思ったこと: フレームワークなので各フォルダが何の役割なのか基礎をちゃんと覚えていく
+- リンク [Udemy Nuxt JS 入門決定版！Vue.js のフレームワーク Nuxt JS の基本から Firebase と連携した SPA の開発まで](https://www.udemy.com/course/nuxtjs-the-complete-guide/)
