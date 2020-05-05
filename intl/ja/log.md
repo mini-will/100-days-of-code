@@ -15,5 +15,5 @@
 ### 2 日目: 2020 年 5 月 5 日
 
 - 今日の進捗: Udemy Nuxt.js 入門 vuex を学ぶ
-- 思ったこと:
+- 思ったこと: vuex を使うことで親子間のデータ受け渡しに悩まなくてすむ、Udemy 教材一通り完了。次の勉強はどれにしようか悩む。
 - リンク [Udemy Nuxt JS 入門決定版！](https://www.udemy.com/course/nuxtjs-the-complete-guide/)
