@@ -17,3 +17,9 @@
 - 今日の進捗: Udemy Nuxt.js 入門 vuex を学ぶ
 - 思ったこと: vuex を使うことで親子間のデータ受け渡しに悩まなくてすむ、Udemy 教材一通り完了。次の勉強はどれにしようか悩む。
 - リンク [Udemy Nuxt JS 入門決定版！](https://www.udemy.com/course/nuxtjs-the-complete-guide/)
+
+### 3 日目: 2020 年 5 月 6 日
+
+- 進捗: Vue&Laravel 設定完了。
+- 思ったこと: Udemy のこの教材お勧め。説明がゆっくり、丁寧、コードが Github にレッスン単位に載っている！
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
