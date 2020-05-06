@@ -25,3 +25,20 @@
   - Udemy のこの教材お勧め。説明がゆっくり、丁寧、コードが Github にレッスン単位に載っている！
   - Vue.js １ファイルで html/javascript/css が１つのファイル → 関心の分離について 注意すべき重要な点の 1 つは、関心事項の分離がファイルタイプの分離と等しくないことです。 現代の UI 開発では、コードベースを互いに織り交ぜる 3 つの巨大なレイヤーに分割するのではなく、それらを疎結合なコンポーネントに分割して構成する方がはるかに理にかなっています。コンポーネントの内部では、そのテンプレート、ロジック、スタイルが本質的に結合されており、実際にそれらを配置することで、コンポーネントがより一貫性と保守性に優れています。
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 4 日目: 2020 年 5 月 7 日
+
+- 進捗: Postman を使った API 動作確認の実施
+- 思ったこと:
+
+  - api で get するときの URL の最初に/をつける
+
+  ```php
+    axios
+      .get(`/api/bookables/${this.$route.params.id}`)
+      .then(response => (this.bookable = response.data));
+  ```
+
+  - gitignore が反映されなくてキャッシュが残っていることが問題だった(https://qiita.com/fuwamaki/items/3ed021163e50beab7154)
+
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
