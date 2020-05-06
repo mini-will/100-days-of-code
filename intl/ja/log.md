@@ -20,6 +20,6 @@
 
 ### 3 日目: 2020 年 5 月 6 日
 
-- 進捗: Vue&Laravel 設定完了。
+- 進捗: Vue&Laravel 設定完了、これからガシガシコード書いてく
 - 思ったこと: Udemy のこの教材お勧め。説明がゆっくり、丁寧、コードが Github にレッスン単位に載っている！
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
