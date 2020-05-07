@@ -31,6 +31,7 @@
 - 進捗: Postman を使った API 動作確認の実施
 - 思ったこと:
 
+  - laravel seed 便利
   - api で get するときの URL の最初に/をつける
 
   ```php
@@ -41,4 +42,14 @@
 
   - gitignore が反映されなくてキャッシュが残っていることが問題だった(https://qiita.com/fuwamaki/items/3ed021163e50beab7154)
 
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 5 日目: 2020 年 5 月 8 日
+
+- 進捗: Vue.js と api の連携
+- 思ったこと:
+  - apiResource を使うとまとめて定義ができる。また使いたい api だけ only で定義できる
+  ```
+  Route::apiResource('bookables', 'Api\BookableController')->only('index', 'show');
+  ```
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
