@@ -46,10 +46,27 @@
 
 ### 5 日目: 2020 年 5 月 8 日
 
-- 進捗: Vue.js と api の連携
+- 進捗: vue と api の連携
 - 思ったこと:
   - apiResource を使うとまとめて定義ができる。また使いたい api だけ only で定義できる
   ```
   Route::apiResource('bookables', 'Api\BookableController')->only('index', 'show');
   ```
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 6 日目: 2020 年 5 月 9 日
+
+- 進捗:
+- 思ったこと:
+  - API Resources を使うとフィルターができる。JsonResource を使ったときにデータが data でラッピングされるため注意が必要。(https://laravel.com/docs/7.x/eloquent-resources) 以下を Providers に記載することでデータラッピングを外せる
+  ```
+   JsonResource::withoutWrapping();
+  ```
+  - install debugger laravel
+  ```
+  composer require barryvdh/laravel-debugbar --dev
+  ```
+  - Laravel Collectionとは、リスト形式でデータを格納できるラッパーのことを指します。 Laravel collectionの使い方【初心者向け】｜TECH PLAY Magazine ［テックプレイマガジン］ https://techplay.jp/column/630
+  - MassAssignment http://laravel.hatenablog.com/entry/2013/10/24/005050
+  - postmanでvalidateエラーのチェックをするときにPostman>Headers>KEY=Accept, Value=application/json を設定する
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
