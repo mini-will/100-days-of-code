@@ -92,3 +92,11 @@
   ````
 
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 8 日目: 2020 年 5 月 11 日
+
+- 進捗:Resource,filter
+- 思ったこと:
+  - vue.js filter テキストフォーマットの整形 https://jp.vuejs.org/v2/guide/filters.html
+  - 細かいスペルミスで詰まったりしている。デバッグが勉強になるといえば勉強になる。
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
