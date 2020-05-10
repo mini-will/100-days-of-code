@@ -66,7 +66,29 @@
   ```
   composer require barryvdh/laravel-debugbar --dev
   ```
-  - Laravel Collectionとは、リスト形式でデータを格納できるラッパーのことを指します。 Laravel collectionの使い方【初心者向け】｜TECH PLAY Magazine ［テックプレイマガジン］ https://techplay.jp/column/630
+  - Laravel Collection とは、リスト形式でデータを格納できるラッパーのことを指します。 Laravel collection の使い方【初心者向け】｜ TECH PLAY Magazine ［テックプレイマガジン］ https://techplay.jp/column/630
   - MassAssignment http://laravel.hatenablog.com/entry/2013/10/24/005050
-  - postmanでvalidateエラーのチェックをするときにPostman>Headers>KEY=Accept, Value=application/json を設定する
+  - postman で validate エラーのチェックをするときに Postman>Headers>KEY=Accept, Value=application/json を設定する
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 7 日目: 2020 年 5 月 10 日
+
+- 進捗:validation と form からのデータ取得
+- 思ったこと:
+  - Laravel は fat にならないような工夫がされている
+  - レスポンスコード 422 https://developer.mozilla.org/ja/docs/Web/HTTP/Status/422
+    > The HyperText Transfer Protocol (HTTP) の 422 Unprocessable Entity 応答状態コードは、サーバーが要求本文のコンテンツ型を理解でき、要求本文の構文が正しいものの、中に含まれている指示が処理できなかったことを表します。
+  - laravel uuid ランダムな文字列 https://www.webopixel.net/php/1380.html。uuidを設定するときに該当のmodelに自動インクリメントしないと文字列設定を追記
+- ````
+  public function getIncrementing()
+    {
+        return false;
+    }
+
+    public function getKeyType()
+    {
+        return 'string';
+    }```
+  ````
+
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
