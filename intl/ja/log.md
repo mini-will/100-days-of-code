@@ -100,3 +100,11 @@
   - vue.js filter テキストフォーマットの整形 https://jp.vuejs.org/v2/guide/filters.html
   - 細かいスペルミスで詰まったりしている。デバッグが勉強になるといえば勉強になる。
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 9 日目: 2020 年 5 月 12 日
+
+- 進捗:done Section 7: ReviewList Component
+- 思ったこと:
+  - global component -> app.js に登録する
+  - font awesome を利用するときに app.scss に登録が必要 https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
