@@ -108,3 +108,10 @@
   - global component -> app.js に登録する
   - font awesome を利用するときに app.scss に登録が必要 https://fontawesome.com/how-to-use/on-the-web/using-with/sass
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 10 日目: 2020 年 5 月 13 日
+
+- 進捗:Review Component フロント部分を構築中
+- 思ったこと:
+  - props nameが違っていてエラー発生。細かいミスをすぐに解決できてよかった
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
