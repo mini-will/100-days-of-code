@@ -113,7 +113,7 @@
 
 - 進捗:Review Component フロント部分を構築中
 - 思ったこと:
-  - props nameが違っていてエラー発生。細かいミスをすぐに解決できてよかった
+  - props name が違っていてエラー発生。細かいミスをすぐに解決できてよかった
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
 
 ### 11 日目: 2020 年 5 月 14 日
@@ -124,9 +124,17 @@
   - https://jp.vuejs.org/v2/guide/components-custom-events.html
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
 
-### 12 日目: 2020 年 5 月 14 日
+### 12 日目: 2020 年 5 月 15 日
 
 - 進捗:Review Component フロント部分を構築中
 - 思ったこと:
   - 仕事がたてこんで勉強する時間をあまりとれなかったけど、少しでも毎日コードを書き続けていくことをしよう
+- リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### 13 日目: 2020 年 5 月 16 日
+
+- 進捗:作りたいアプリの基盤構築中
+- 思ったこと:
+  - Vue,Laravel 基盤部分の構成ってあまり理解できていない
+  - VueRouter とか何度も手動で構築すると理解が深まる
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
