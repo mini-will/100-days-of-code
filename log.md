@@ -138,3 +138,12 @@
   - Vue,Laravel 基盤部分の構成ってあまり理解できていない
   - VueRouter とか何度も手動で構築すると理解が深まる
 - リンク [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### Day 14: 2020/05/17
+
+- Today's Progress : Prototyping the app
+- Thoughts :
+  - I was able to use what I learned in the Udemy course to code the prototype's simple logic without much hesitation.
+  - I was somewhat confused about the difference between Vue and PHP array writing
+- Link to work
+  [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
