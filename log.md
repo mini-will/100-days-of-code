@@ -147,3 +147,12 @@
   - I was somewhat confused about the difference between Vue and PHP array writing
 - Link to work
   [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### Day 15: 2020/05/18
+
+- Today's Progress : Prototyping the app
+- Thoughts :
+  - When I wanted to get data randomly from an array, I used Laravel's collection feature and it was very easy to do!
+ - I could easily handle responsive design with vuetify grid based on this article!  https://reffect.co.jp/vue/vuetify-grid-system
+- Link to work
+  [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
