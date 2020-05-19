@@ -156,3 +156,12 @@
  - I could easily handle responsive design with vuetify grid based on this article!  https://reffect.co.jp/vue/vuetify-grid-system
 - Link to work
   [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### Day 16: 2020/05/19
+
+- Today's Progress : Prototyping the app
+- Thoughts :
+  - Be careful with types when retrieving data from query parameters
+  - I don't understand vue mount, created
+- Link to work
+  [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
