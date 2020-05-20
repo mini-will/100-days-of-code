@@ -165,3 +165,11 @@
   - I don't understand vue mount, created
 - Link to work
   [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### Day 17: 2020/05/20
+
+- Today's Progress : Prototyping the app
+- Thoughts :
+  - In created:, the function will not be called unless this.function name() is used.
+  - Add array vm.$set(vm.items, indexOfItem, newValue)
+  [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
