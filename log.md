@@ -153,7 +153,7 @@
 - Today's Progress : Prototyping the app
 - Thoughts :
   - When I wanted to get data randomly from an array, I used Laravel's collection feature and it was very easy to do!
- - I could easily handle responsive design with vuetify grid based on this article!  https://reffect.co.jp/vue/vuetify-grid-system
+- I could easily handle responsive design with vuetify grid based on this article! https://reffect.co.jp/vue/vuetify-grid-system
 - Link to work
   [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
 
@@ -171,5 +171,14 @@
 - Today's Progress : Prototyping the app
 - Thoughts :
   - In created:, the function will not be called unless this.function name() is used.
-  - Add array vm.$set(vm.items, indexOfItem, newValue)
-  [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+  - Add array vm.\$set(vm.items, indexOfItem, newValue)
+    [Udemy Master Laravel 6 with Vue.js Fullstack Development](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/)
+
+### Day 18: 2020/05/21
+
+- Today's Progress : Prototyping the app
+- Thoughts :
+  - I'm stuck on a common beginner's mistake.
+  - However, when defining a component, data must be declared as a function that returns the initial data object. Why? Because there will be many instances created using the same definition.
+
+[Vue.js Common Beginner Gotchas](https://vuejs.org/2016/02/06/common-gotchas/)
