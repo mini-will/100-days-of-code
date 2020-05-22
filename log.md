@@ -182,3 +182,12 @@
   - However, when defining a component, data must be declared as a function that returns the initial data object. Why? Because there will be many instances created using the same definition.
 
 [Vue.js Common Beginner Gotchas](https://vuejs.org/2016/02/06/common-gotchas/)
+
+### Day 19: 2020/05/22
+
+- Today's Progress : Prototyping the app
+- Thoughts :
+- File name -> Pascal case: user-list.vue
+- HTML -> Kebab case: <UserList />
+- JS -> Camel case: userList
+  [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
