@@ -187,7 +187,7 @@
 
 - Today's Progress : Prototyping the app
 - Thoughts :
-- File name -> Pascal case: user-list.vue
-- HTML -> Kebab case: <UserList />
+- FileName -> PascalCase:UserList.vue
+- HTML -> Kebab case: <user-list>
 - JS -> Camel case: userList
   [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
