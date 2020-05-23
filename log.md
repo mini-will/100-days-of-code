@@ -187,7 +187,22 @@
 
 - Today's Progress : Prototyping the app
 - Thoughts :
-- FileName -> PascalCase:UserList.vue
-- HTML -> Kebab case: <user-list>
-- JS -> Camel case: userList
+  - FileName -> PascalCase:UserList.vue
+  - HTML -> Kebab case: <user-list>
+  - JS -> Camel case: userList
   [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
+
+
+### Day 20: 2020/05/23
+
+- Today's Progress : Review of Vue.js Basics
+- Thoughts :
+  - strikeout 取り消し線
+  - 
+  [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
+
+### Day 21: 2020/05/24
+
+- Today's Progress : Udemy Vue&Laravel
+- Thoughts :
+  - Eloquent's boot.Eloquent is an ORM in Laravel, but the first time it is called, it calls a static method called boot to do the initialization. As for how to use this BOOT, the manual site has set up a global scope and events.
