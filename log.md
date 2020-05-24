@@ -190,15 +190,14 @@
   - FileName -> PascalCase:UserList.vue
   - HTML -> Kebab case: <user-list>
   - JS -> Camel case: userList
-  [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
-
+    [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
 
 ### Day 20: 2020/05/23
 
 - Today's Progress : Review of Vue.js Basics
 - Thoughts :
   - strikeout 取り消し線
-  - 
+  -
   [[Vue.js] ケバブケースとかキャメルケースとかパスカルケースとか](https://qiita.com/kozzzz/items/5f36a2a830c187a75a51)
 
 ### Day 21: 2020/05/24
@@ -206,3 +205,40 @@
 - Today's Progress : Udemy Vue&Laravel
 - Thoughts :
   - Eloquent's boot.Eloquent is an ORM in Laravel, but the first time it is called, it calls a static method called boot to do the initialization. As for how to use this BOOT, the manual site has set up a global scope and events.
+
+### Day 22: 2020/05/25
+
+- Today's Progress : Prototype App
+- Thoughts :
+- よく言う「N+1」問題というやつ。
+  クエリを 1 回+N 回発行してしまうと、大規模なデータになるほど、データをとるのにものすごく時間がかかってしまってタイムアウトになってしまうこともある。これを避けるため、先にリレーションデータも取得しておくのが "Eager loading" であり、Eloquent では with メソドを使う。
+
+```php
+//lazy loading
+$books = App\Book::all(); //クエリを1回発行したあと、
+
+foreach ($books as $book) {
+    echo $book->author->name; //booksの冊数分（N回）だけ発行される。
+}
+
+//Eager loading
+$books = App\Book::with('author')->get(); //クエリが発行されるのは2回だけ
+
+foreach ($books as $book) {
+    echo $book->author->name;
+}
+```
+
+[[Laravel] Eloquent リレーションと Eager Loading](https://qiita.com/shosho/items/abf6423283f761703d01)
+
+- vuex getter にコンポーネントからアクセスするとき
+  UserList コンポーネントの中で先ほど実行していた処理を削除し、getters を使った処理に変更を行います。Getters には this.\$store.getters でアクセスすることができます。
+  https://reffect.co.jp/vue/understaind-vue-basic#Getters
+
+```javascript
+computed:{
+	users: function(){
+		return this.$store.getters.users;
+	}
+}
+```
