@@ -242,3 +242,8 @@ computed:{
 	}
 }
 ```
+### Day 23: 2020/05/25
+
+- Today's Progress : Prototype App
+- Thoughts :
+- vuex state,getterの設定周りをコーディング。computed property と Vuex getter は機能的にはほとんど同じで、computed property はその component でしか使えないのに対し、getter はどの component からも使えるという違いがあります。複数のコンポーネントで同じ computed property を定義すると無駄なので store の getter として定義する、という感じでいいと思います。
