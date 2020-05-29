@@ -275,3 +275,9 @@ computed:{
 - Today's Progress : vuex & v-model
 - Thoughts :computed のなかで set と get を設定することで v-model を vuex と利用することができる
 - links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 27: 2020/05/27
+
+- Today's Progress : vuex
+- Thoughts :vuex を適用すると v-select とか v-model 系が書き直しになる。Qiita にはサンプルが少ないが公式には載っていた。
+- links: https://vuex.vuejs.org/guide/forms.html
