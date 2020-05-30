@@ -249,7 +249,7 @@ computed:{
 - Thoughts :
 - vuex state,getter の設定周りをコーディング。computed property と Vuex getter は機能的にはほとんど同じで、computed property はその component でしか使えないのに対し、getter はどの component からも使えるという違いがあります。複数のコンポーネントで同じ computed property を定義すると無駄なので store の getter として定義する、という感じでいいと思います。
 
-### Day 24: 2020/05/25
+### Day 24: 2020/05/26
 
 - Today's Progress : Vuex getters
 - Thoughts :
@@ -263,21 +263,27 @@ computed:{
   }
   ```
 
-### Day 25: 2020/05/26
+### Day 25: 2020/05/27
 
 - Today's Progress : prototype app
 - Thoughts :コンポーネントはまだローカルステートを持つことできる
   Vuex を使うということは、全ての状態を Vuex の中に置くべき、というわけではありません。多くの状態を Vuex に置くことで、状態の変更がさらに明示的、デバッグ可能になりますが、ときにはコードを冗長でまわりくどいものにします。状態の一部がひとつのコンポーネントだけに属している場合は、それをローカルの状態として残しておくとよいでしょう。あなたは、トレードオフを考慮した上で、あなたのアプリの開発ニーズに合った決定をすべきです。
 - links:https://vuex.vuejs.org/ja/guide/state.html
 
-### Day 26: 2020/05/26
+### Day 26: 2020/05/28
 
 - Today's Progress : vuex & v-model
 - Thoughts :computed のなかで set と get を設定することで v-model を vuex と利用することができる
 - links: https://vuex.vuejs.org/guide/forms.html
 
-### Day 27: 2020/05/27
+### Day 27: 2020/05/29
 
 - Today's Progress : vuex
 - Thoughts :vuex を適用すると v-select とか v-model 系が書き直しになる。Qiita にはサンプルが少ないが公式には載っていた。
+- links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 28: 2020/05/30
+
+- Today's Progress : vuex
+- Thoughts :非同期に state を書き換えたいなら action を使う。ajax や setTimeout や Firebase のような非同期処理の後に state を書き換えたい場合には actions に非同期の関数を登録します。
 - links: https://vuex.vuejs.org/guide/forms.html
