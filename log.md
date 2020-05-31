@@ -287,3 +287,9 @@ computed:{
 - Today's Progress : vuex
 - Thoughts :非同期に state を書き換えたいなら action を使う。ajax や setTimeout や Firebase のような非同期処理の後に state を書き換えたい場合には actions に非同期の関数を登録します。
 - links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 29: 2020/05/31
+- Today's Progress : vue router
+- Thoughts :ページ遷移後のデータの取得を対応。動的パラメータが簡単に取得できてよかった。
+- youtube の埋め込みvueだと簡単にできそう https://qiita.com/norton0209/items/ba3e46342a0dbed065e2
+- links: https://vuex.vuejs.org/guide/forms.html
