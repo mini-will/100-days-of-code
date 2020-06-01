@@ -293,3 +293,8 @@ computed:{
 - Thoughts :ページ遷移後のデータの取得を対応。動的パラメータが簡単に取得できてよかった。
 - youtube の埋め込みvueだと簡単にできそう https://qiita.com/norton0209/items/ba3e46342a0dbed065e2
 - links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 30: 2020/06/01
+- Today's Progress : prototype app
+- Thoughts : netlify を利用してgithubにpushしたら自動でデプロイを設定。自分が作ったアプリが動くというのはたとえシンプルなアプリでも嬉しい。
+- links: https://vuex.vuejs.org/guide/forms.html
