@@ -289,12 +289,20 @@ computed:{
 - links: https://vuex.vuejs.org/guide/forms.html
 
 ### Day 29: 2020/05/31
+
 - Today's Progress : vue router
 - Thoughts :ページ遷移後のデータの取得を対応。動的パラメータが簡単に取得できてよかった。
-- youtube の埋め込みvueだと簡単にできそう https://qiita.com/norton0209/items/ba3e46342a0dbed065e2
+- youtube の埋め込み vue だと簡単にできそう https://qiita.com/norton0209/items/ba3e46342a0dbed065e2
 - links: https://vuex.vuejs.org/guide/forms.html
 
 ### Day 30: 2020/06/01
+
 - Today's Progress : prototype app
-- Thoughts : netlify を利用してgithubにpushしたら自動でデプロイを設定。自分が作ったアプリが動くというのはたとえシンプルなアプリでも嬉しい。
+- Thoughts : netlify を利用して github に push したら自動でデプロイを設定。自分が作ったアプリが動くというのはたとえシンプルなアプリでも嬉しい。
+- links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 31: 2020/06/02
+
+- Today's Progress : prototype app
+- Thoughts : 急に vue-cli でコンパイルエラーが発生した。かつ原因不明で困った。node と vue-cli のアップデートをしたらとりあえず治ってよかった。
 - links: https://vuex.vuejs.org/guide/forms.html
