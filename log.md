@@ -306,3 +306,10 @@ computed:{
 - Today's Progress : prototype app
 - Thoughts : 急に vue-cli でコンパイルエラーが発生した。かつ原因不明で困った。node と vue-cli のアップデートをしたらとりあえず治ってよかった。
 - links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 32: 2020/06/03
+
+- Today's Progress : prototype app
+- Thoughts : コンパイルエラーが再び発生 。vue-cli バージョンを上げたときに babel が古いとのこと。参考 →https://qiita.com/DaisukeNishi/items/ff36054a2d00cf81aac4
+-
+- links: https://vuex.vuejs.org/guide/forms.html
