@@ -311,5 +311,21 @@ computed:{
 
 - Today's Progress : prototype app
 - Thoughts : コンパイルエラーが再び発生 。vue-cli バージョンを上げたときに babel が古いとのこと。参考 →https://qiita.com/DaisukeNishi/items/ff36054a2d00cf81aac4
+  このコマンドを実行して解決
+  ```
+  $ npm install --save core-js
+  ```
 -
 - links: https://vuex.vuejs.org/guide/forms.html
+
+### Day 33: 2020/06/03
+
+- Today's Progress : prototype app
+- Thoughts : javascriptの配列を無理やり組んで対応。配列の特定インデックスの値を書き換える。
+```
+a = [{a:1},{b:2}]
+a.splice(1, 1, {b:10})
+```
+- links: [2018年Vue.jsを使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
+
+
