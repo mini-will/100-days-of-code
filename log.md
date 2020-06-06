@@ -335,3 +335,11 @@ a.splice(1, 1, {b:10})
 - Today's Progress : prototype app
 - Thoughts : 昔の for 文のまま使っているので forEach を使っていきたい…
 - links: [2018 年 Vue.js を使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
+
+### Day 35: 2020/06/06
+
+- Today's Progress : prototype app
+- Thoughts :
+  - vue for 文のなかで index を使えば今何列目か取得できる
+  - vue でリアクティブに配列更新をするときは splice を使う
+- links: [2018 年 Vue.js を使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
