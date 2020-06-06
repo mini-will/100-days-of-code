@@ -318,14 +318,20 @@ computed:{
 -
 - links: https://vuex.vuejs.org/guide/forms.html
 
-### Day 33: 2020/06/03
+### Day 33: 2020/06/04
 
 - Today's Progress : prototype app
-- Thoughts : javascriptの配列を無理やり組んで対応。配列の特定インデックスの値を書き換える。
+- Thoughts : javascript の配列を無理やり組んで対応。配列の特定インデックスの値を書き換える。
+
 ```
 a = [{a:1},{b:2}]
 a.splice(1, 1, {b:10})
 ```
-- links: [2018年Vue.jsを使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
 
+- links: [2018 年 Vue.js を使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
 
+### Day 34: 2020/06/05
+
+- Today's Progress : prototype app
+- Thoughts : 昔の for 文のまま使っているので forEach を使っていきたい…
+- links: [2018 年 Vue.js を使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
