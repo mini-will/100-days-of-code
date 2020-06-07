@@ -343,3 +343,10 @@ a.splice(1, 1, {b:10})
   - vue for 文のなかで index を使えば今何列目か取得できる
   - vue でリアクティブに配列更新をするときは splice を使う
 - links: [2018 年 Vue.js を使ってる人には知って欲しいオブジェクトと配列の操作のベストプラクティス](https://qiita.com/kahirokunn/items/9ece44e4327946583a00)
+
+### Day 36: 2020/06/07
+
+- Today's Progress : prototype app
+- Thoughts :
+  - テーブル設計と同じようにvuexのデータ設計も必要だと思うのだが、vuexのデータ設計の作業をなんというのだろう→Component 設計
+- links: [Vuex のルールと Component 設計](https://techblog.roxx.co.jp/entry/2019/02/14/154002)
