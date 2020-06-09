@@ -350,3 +350,15 @@ a.splice(1, 1, {b:10})
 - Thoughts :
   - テーブル設計と同じようにvuexのデータ設計も必要だと思うのだが、vuexのデータ設計の作業をなんというのだろう→Component 設計
 - links: [Vuex のルールと Component 設計](https://techblog.roxx.co.jp/entry/2019/02/14/154002)
+
+### Day 37: 2020/06/08
+
+- Today's Progress : prototype app
+- Thoughts :現職の仕事がリリース前で佳境、勉強の時間がなかなか取れない...。vuexでmutaionsとactionsを使い分けるよりもactionsに統一してしまったほうがコードがスッキリする
+- links: [Vuex のルールと Component 設計](https://techblog.roxx.co.jp/entry/2019/02/14/154002)
+
+### Day 38: 2020/06/09
+
+- Today's Progress : prototype app
+- Thoughts :vueで配列を取り扱うときはいつもリアクティブにコーディングできているか気をつける必要がある
+- links: [Vue.jsは気難しい（配列編）](https://qiita.com/tmak_tsukamoto/items/e303328681f20a036530)
