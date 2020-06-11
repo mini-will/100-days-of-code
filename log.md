@@ -348,17 +348,46 @@ a.splice(1, 1, {b:10})
 
 - Today's Progress : prototype app
 - Thoughts :
-  - テーブル設計と同じようにvuexのデータ設計も必要だと思うのだが、vuexのデータ設計の作業をなんというのだろう→Component 設計
+  - テーブル設計と同じように vuex のデータ設計も必要だと思うのだが、vuex のデータ設計の作業をなんというのだろう →Component 設計
 - links: [Vuex のルールと Component 設計](https://techblog.roxx.co.jp/entry/2019/02/14/154002)
 
 ### Day 37: 2020/06/08
 
 - Today's Progress : prototype app
-- Thoughts :現職の仕事がリリース前で佳境、勉強の時間がなかなか取れない...。vuexでmutaionsとactionsを使い分けるよりもactionsに統一してしまったほうがコードがスッキリする
+- Thoughts :現職の仕事がリリース前で佳境、勉強の時間がなかなか取れない...。vuex で mutaions と actions を使い分けるよりも actions に統一してしまったほうがコードがスッキリする
 - links: [Vuex のルールと Component 設計](https://techblog.roxx.co.jp/entry/2019/02/14/154002)
 
 ### Day 38: 2020/06/09
 
 - Today's Progress : prototype app
-- Thoughts :vueで配列を取り扱うときはいつもリアクティブにコーディングできているか気をつける必要がある
-- links: [Vue.jsは気難しい（配列編）](https://qiita.com/tmak_tsukamoto/items/e303328681f20a036530)
+- Thoughts :vue で配列を取り扱うときはいつもリアクティブにコーディングできているか気をつける必要がある
+- links: [Vue.js は気難しい（配列編）](https://qiita.com/tmak_tsukamoto/items/e303328681f20a036530)
+
+### Day 39: 2020/06/10
+
+- Today's Progress : prototype app
+- Thoughts :朝から晩まで仕事だったのでコーディングができなかった。座学で vue.js を勉強実施
+  オブジェクトにさらにフィールドを持たせることで複数のクラスを切り替えることができます。加えて、v-bind:class ディレクティブはプレーンな class 属性と共存できます。つまり、次のようなテンプレートと:
+  ```
+  <div
+  class="static"
+  v-bind:class="{ active: isActive, 'text-danger': hasError }"
+  ></div>
+  ```
+
+```
+- links: [Vue.js](https://vuejs.org/v2/guide/class-and-style.html)
+
+### Day 40: 2020/06/11
+
+- Today's Progress : prototype app
+- Thoughts :朝から晩まで仕事だったのでコーディングができなかった。引き続きスキマ時間に座学でvue.jsを勉強実施
+    Vue はプロパティの追加または削除を検出できません。Vue はインスタンスの初期化中に getter/setter の変換を行うため、全てのプロパティは Vue が変換してリアクティブにできるように data オブジェクトに存在しなければなりません。
+```
+
+  <div
+  class="static"
+  v-bind:class="{ active: isActive, 'text-danger': hasError }"
+></div>
+```
+- links: [Vue.js](https://vuejs.org/v2/guide/class-and-style.html)
