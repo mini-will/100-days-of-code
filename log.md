@@ -374,20 +374,19 @@ a.splice(1, 1, {b:10})
   v-bind:class="{ active: isActive, 'text-danger': hasError }"
   ></div>
   ```
-
-```
 - links: [Vue.js](https://vuejs.org/v2/guide/class-and-style.html)
 
 ### Day 40: 2020/06/11
 
 - Today's Progress : prototype app
-- Thoughts :朝から晩まで仕事だったのでコーディングができなかった。引き続きスキマ時間に座学でvue.jsを勉強実施
-    Vue はプロパティの追加または削除を検出できません。Vue はインスタンスの初期化中に getter/setter の変換を行うため、全てのプロパティは Vue が変換してリアクティブにできるように data オブジェクトに存在しなければなりません。
-```
+- Thoughts :朝から晩まで仕事だったのでコーディングができなかった。引き続きスキマ時間に座学で vue.js を勉強実施
+  Vue はプロパティの追加または削除を検出できません。Vue はインスタンスの初期化中に getter/setter の変換を行うため、全てのプロパティは Vue が変換してリアクティブにできるように data オブジェクトに存在しなければなりません。
 
+```
   <div
   class="static"
   v-bind:class="{ active: isActive, 'text-danger': hasError }"
 ></div>
 ```
+
 - links: [Vue.js](https://vuejs.org/v2/guide/class-and-style.html)
