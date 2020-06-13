@@ -390,3 +390,17 @@ a.splice(1, 1, {b:10})
 ```
 
 - links: [Vue.js](https://vuejs.org/v2/guide/class-and-style.html)
+
+### Day 41: 2020/06/12
+
+- Today's Progress : prototype app
+- Thoughts :
+- プロトタイプでいろいろいじったのを元々のリポジトリへ反映していくことをしていく予定。地味に面倒な作業になりそう。でもプロトタイプを作ったおかげで作りたいものがみえてきた。
+- links: [Vue.js](https://vuejs.org/v2/guide/class-and-style.html)
+
+### Day 42: 2020/06/13
+
+- Today's Progress : prototype app
+- Thoughts :
+- プロトタイプで作ってきたものをベースに移植中。json を vue.js の配列に設定する箇所がどうしてもうまくいかない。なんでだろう。
+- links: [Vue.js は気難しい（配列編）](https://qiita.com/tmak_tsukamoto/items/e303328681f20a036530)
