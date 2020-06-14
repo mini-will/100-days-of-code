@@ -404,3 +404,24 @@ a.splice(1, 1, {b:10})
 - Thoughts :
 - プロトタイプで作ってきたものをベースに移植中。json を vue.js の配列に設定する箇所がどうしてもうまくいかない。なんでだろう。
 - links: [Vue.js は気難しい（配列編）](https://qiita.com/tmak_tsukamoto/items/e303328681f20a036530)
+
+### Day 43: 2020/06/14
+
+- Today's Progress : laravel db 設定
+- Thoughts :
+
+  - app.php のタイムゾーン設定を変更する
+
+  ```php
+   'timezone' => 'Asia/Tokyo',
+  ```
+
+  - AppServiceProvider.php に最大未指定時の default 値を変更する
+
+  ```php
+  Schema::defaultStringLength(191);
+  ```
+
+  - Larave csv データを Seeder で DB に登録する
+
+- links: [【Laravel】CSV ファイルのデータを Seeder で DB につっこむ](https://qiita.com/shosho/items/caf535b1df5cb8d8ae92)
