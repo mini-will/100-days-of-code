@@ -422,6 +422,13 @@ a.splice(1, 1, {b:10})
   Schema::defaultStringLength(191);
   ```
 
-  - Larave csv データを Seeder で DB に登録する
+  - Larave csv データを Seeder で DB に登録できた。ネット記事を参考に割と簡単にデータ登録ができた！
 
+- links: [【Laravel】CSV ファイルのデータを Seeder で DB につっこむ](https://qiita.com/shosho/items/caf535b1df5cb8d8ae92)
+
+### Day 44: 2020/06/15
+
+- Today's Progress : laravel db 設定
+- Thoughts :
+  - laravel クエリパラメータの任意条件のときにどうやってせってするのかがわからなかった
 - links: [【Laravel】CSV ファイルのデータを Seeder で DB につっこむ](https://qiita.com/shosho/items/caf535b1df5cb8d8ae92)
