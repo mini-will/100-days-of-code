@@ -432,3 +432,11 @@ a.splice(1, 1, {b:10})
 - Thoughts :
   - laravel クエリパラメータの任意条件のときにどうやってせってするのかがわからなかった
 - links: [【Laravel】CSV ファイルのデータを Seeder で DB につっこむ](https://qiita.com/shosho/items/caf535b1df5cb8d8ae92)
+
+### Day 45: 2020/06/16
+
+- Today's Progress : reading vue.js
+- Thoughts :必須propsに必ずrequired: trueを付ける
+必須propsには必ずrequired: trueを付けるべきです。
+たまにあるのが、必須propsなのにdefault値だけを指定してrequired: trueを設定しないケースです。
+- links: [2019年版Vue.jsを使ってる人には必ず知っていてほしいVue.jsの武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つTips](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
