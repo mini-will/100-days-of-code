@@ -440,3 +440,28 @@ a.splice(1, 1, {b:10})
 必須propsには必ずrequired: trueを付けるべきです。
 たまにあるのが、必須propsなのにdefault値だけを指定してrequired: trueを設定しないケースです。
 - links: [2019年版Vue.jsを使ってる人には必ず知っていてほしいVue.jsの武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つTips](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
+
+### Day 46: 2020/06/17
+
+- Today's Progress : reading vue.js
+- Thoughts :5. データプロパティでは必ずFunctionを返す
+
+コンポーネントでデータを宣言する際、データプロパティには必ずfunctionをreturnするようにしましょう。returnしない場合、オブジェクトを返すことになり、データがすべてのコンポーネントのインスタンスで共有されてしまいます。
+再利用可能で固有のオブジェクトを返すコンポーネントを作る場合がほとんどだと思いますが、データオブジェクトをfunction内でreturnすることで実現することができます。
+```
+// Bad
+data: {
+  name: 'Momoko Toyota',
+  hobbies: []
+}
+
+// Good
+data () {
+  return {
+    name: 'Momoko Toyota',
+    hobbies: []
+  }
+}
+```
+- 
+- links: [Vue開発者のためのVue.jsベストプラクティス集15選](https://qiita.com/mtoyopet/items/87a32d8e3497c5421727)
