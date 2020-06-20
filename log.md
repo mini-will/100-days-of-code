@@ -436,18 +436,19 @@ a.splice(1, 1, {b:10})
 ### Day 45: 2020/06/16
 
 - Today's Progress : reading vue.js
-- Thoughts :必須propsに必ずrequired: trueを付ける
-必須propsには必ずrequired: trueを付けるべきです。
-たまにあるのが、必須propsなのにdefault値だけを指定してrequired: trueを設定しないケースです。
-- links: [2019年版Vue.jsを使ってる人には必ず知っていてほしいVue.jsの武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つTips](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
+- Thoughts :必須 props に必ず required: true を付ける
+  必須 props には必ず required: true を付けるべきです。
+  たまにあるのが、必須 props なのに default 値だけを指定して required: true を設定しないケースです。
+- links: [2019 年版 Vue.js を使ってる人には必ず知っていてほしい Vue.js の武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つ Tips](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
 
 ### Day 46: 2020/06/17
 
 - Today's Progress : reading vue.js
-- Thoughts :5. データプロパティでは必ずFunctionを返す
+- Thoughts :5. データプロパティでは必ず Function を返す
 
-コンポーネントでデータを宣言する際、データプロパティには必ずfunctionをreturnするようにしましょう。returnしない場合、オブジェクトを返すことになり、データがすべてのコンポーネントのインスタンスで共有されてしまいます。
-再利用可能で固有のオブジェクトを返すコンポーネントを作る場合がほとんどだと思いますが、データオブジェクトをfunction内でreturnすることで実現することができます。
+コンポーネントでデータを宣言する際、データプロパティには必ず function を return するようにしましょう。return しない場合、オブジェクトを返すことになり、データがすべてのコンポーネントのインスタンスで共有されてしまいます。
+再利用可能で固有のオブジェクトを返すコンポーネントを作る場合がほとんどだと思いますが、データオブジェクトを function 内で return することで実現することができます。
+
 ```
 // Bad
 data: {
@@ -463,5 +464,34 @@ data () {
   }
 }
 ```
-- 
-- links: [Vue開発者のためのVue.jsベストプラクティス集15選](https://qiita.com/mtoyopet/items/87a32d8e3497c5421727)
+
+- links: [Vue 開発者のための Vue.js ベストプラクティス集 15 選](https://qiita.com/mtoyopet/items/87a32d8e3497c5421727)
+
+### Day 47: 2020/06/18
+
+- Today's Progress : vuex+select form
+- Thoughts :vuex+select の実装でハマった。表示用のデータと select して active になったデータとを分けることで vuex で対応することができた
+
+- links:[CodePen Home Vue Select With Vuex With Custom Attribute](https://codepen.io/fromarm4/pen/xzMyKv)
+
+### Day 48: 2020/06/19
+
+- Today's Progress : vuex+select form
+- Thoughts :vuex+select の復習
+
+  ```
+  <v-select
+    multiple
+    label="email"
+    @input="updateValue($event, 'active_peaple')"
+    :options="$store.state.people"
+    :value="$store.state.form.active_peaple"
+  ></v-select>
+  ```
+
+- links:[CodePen Home Vue Select With Vuex With Custom Attribute](https://codepen.io/fromarm4/pen/xzMyKv)
+
+### Day 49: 2020/06/20
+
+- Today's Progress : v-switch
+- Thoughts :vuex と v-switch の組み合わせがうまく動かない…
