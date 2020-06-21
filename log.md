@@ -495,3 +495,23 @@ data () {
 
 - Today's Progress : v-switch
 - Thoughts :vuex と v-switch の組み合わせがうまく動かない…
+
+### Day 50: 2020/06/21
+
+- Today's Progress : where 条件の設定
+- Thoughts :
+  - vue の css 適用の仕方
+
+````
+<style lang="scss" scoped>
+.v-toolbar__title {
+  overflow: visible !important;
+  margin-right: 50px !important;
+}
+</style>
+また、確実にスタイルを適用させるために、Vuetify で生成されたクラスのスタイルを修正する場合は、!important をつけましょう。これをつけなければ、スタイルが適用されないことがあります。
+```
+- laravelでのwhere条件。queryを事前につくっておこくことで対応ができる。Controller側で使用するModelをuseで記述し、queryを呼び出し、最後にget()することで条件の行を取得することが出来ます。
+
+- links:[Laravel5.4でさまざまな条件での絞り込み方法](https://www.willstyle.co.jp/blog/1116/)
+````
