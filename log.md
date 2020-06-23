@@ -502,22 +502,28 @@ data () {
 - Thoughts :
   - vue の css 適用の仕方
 
-````
+```
 <style lang="scss" scoped>
 .v-toolbar__title {
   overflow: visible !important;
   margin-right: 50px !important;
 }
 </style>
-また、確実にスタイルを適用させるために、Vuetify で生成されたクラスのスタイルを修正する場合は、!important をつけましょう。これをつけなければ、スタイルが適用されないことがあります。
 ```
-- laravelでのwhere条件。queryを事前につくっておこくことで対応ができる。Controller側で使用するModelをuseで記述し、queryを呼び出し、最後にget()することで条件の行を取得することが出来ます。
 
-- links:[Laravel5.4でさまざまな条件での絞り込み方法](https://www.willstyle.co.jp/blog/1116/)
+また、確実にスタイルを適用させるために、Vuetify で生成されたクラスのスタイルを修正する場合は、!important をつけましょう。これをつけなければ、スタイルが適用されないことがあります。
+
+- laravel での where 条件。query を事前につくっておこくことで対応ができる。Controller 側で使用する Model を use で記述し、query を呼び出し、最後に get()することで条件の行を取得することが出来ます。
+
+- links:[Laravel5.4 でさまざまな条件での絞り込み方法](https://www.willstyle.co.jp/blog/1116/)
 
 ### Day 51: 2020/06/21
 
 - Today's Progress : where 条件の設定
-- Thoughts :直接インデックス(例: arr[0] = val) を設定、または length プロパティを変更することによって配列を変更する場合 view は更新されません。同様に、Vue.js はこれらの変更を検出することはできません。常に配列のインスタンスメソッドを使用することによって配列を変更、またはそれを完全に置き換えて下さい。Vue は arr.splice(index, 1, value) のシンタックスシュガーとして、便利なメソッド arr.$set(index, value) を提供します。
+- Thoughts :直接インデックス(例: arr[0] = val) を設定、または length プロパティを変更することによって配列を変更する場合 view は更新されません。同様に、Vue.js はこれらの変更を検出することはできません。常に配列のインスタンスメソッドを使用することによって配列を変更、またはそれを完全に置き換えて下さい。Vue は arr.splice(index, 1, value) のシンタックスシュガーとして、便利なメソッド arr.\$set(index, value) を提供します。
 - links:[よくある初心者の落とし穴](https://jp.vuejs.org/2016/02/06/common-gotchas/)
-````
+
+### Day 52: 2020/06/22
+
+- Today's Progress : vue component
+- Thoughts :長くなった 1 ファイルを component 化して切り出してみたがうまい component との連携方法がわからない。component を呼び出したときにデータ表示したいが、props でデータ取得したくないときはどのようにすればよいのか悩む
