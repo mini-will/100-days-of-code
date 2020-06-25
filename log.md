@@ -527,3 +527,16 @@ data () {
 
 - Today's Progress : vue component
 - Thoughts :長くなった 1 ファイルを component 化して切り出してみたがうまい component との連携方法がわからない。component を呼び出したときにデータ表示したいが、props でデータ取得したくないときはどのようにすればよいのか悩む
+
+### Day 53: 2020/06/23
+
+- Today's Progress : vue component
+- Thoughts :vue created,mountedのカッコの付け方を間違えて記載していてハマった。
+
+
+### Day 54: 2020/06/24
+
+- Today's Progress : vue slot
+- Thoughts :slotとは親となるコンポーネント側から、子のコンポーネントのテンプレートの一部を差し込む機能 です。
+スロットというと「スロットマシン」が思い浮かびますが、もともとslotの「差し込み口」という意味から派生して、コインの投入口があるスロットマシンの意味をもつようになったそうです。
+- [Vue.jsのslotの機能を初心者にわかるように解説してみた](https://future-architect.github.io/articles/20200428/)
