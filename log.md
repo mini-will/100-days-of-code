@@ -517,32 +517,64 @@ data () {
 
 - links:[Laravel5.4 でさまざまな条件での絞り込み方法](https://www.willstyle.co.jp/blog/1116/)
 
-### Day 51: 2020/06/21
+### Day 51: 2020/06/22
 
 - Today's Progress : where 条件の設定
 - Thoughts :直接インデックス(例: arr[0] = val) を設定、または length プロパティを変更することによって配列を変更する場合 view は更新されません。同様に、Vue.js はこれらの変更を検出することはできません。常に配列のインスタンスメソッドを使用することによって配列を変更、またはそれを完全に置き換えて下さい。Vue は arr.splice(index, 1, value) のシンタックスシュガーとして、便利なメソッド arr.\$set(index, value) を提供します。
 - links:[よくある初心者の落とし穴](https://jp.vuejs.org/2016/02/06/common-gotchas/)
 
-### Day 52: 2020/06/22
+### Day 52: 2020/06/23
 
 - Today's Progress : vue component
 - Thoughts :長くなった 1 ファイルを component 化して切り出してみたがうまい component との連携方法がわからない。component を呼び出したときにデータ表示したいが、props でデータ取得したくないときはどのようにすればよいのか悩む
 
-### Day 53: 2020/06/23
+### Day 53: 2020/06/24
 
 - Today's Progress : vue component
 - Thoughts :vue created,mountedのカッコの付け方を間違えて記載していてハマった。
 
 
-### Day 54: 2020/06/24
+### Day 54: 2020/06/25
 
 - Today's Progress : vue slot
 - Thoughts :slotとは親となるコンポーネント側から、子のコンポーネントのテンプレートの一部を差し込む機能 です。
 スロットというと「スロットマシン」が思い浮かびますが、もともとslotの「差し込み口」という意味から派生して、コインの投入口があるスロットマシンの意味をもつようになったそうです。
 - [Vue.jsのslotの機能を初心者にわかるように解説してみた](https://future-architect.github.io/articles/20200428/)
 
-### Day 55: 2020/06/25
+### Day 55: 2020/06/26
 
 - Today's Progress : vue slot
 - Thoughts :必須propsには必ずrequired: trueを付けるべきです。なぜこれが悪いのかというと、account propに何か入れて欲しいのに、入れ忘れた場合でも一切警告がでなく、バグ発見が困難になるからです。また、「本当に任意であるpropがどれなのか」を見分ける難易度が上がってしまいます。
 - links[2019年版Vue.jsを使ってる人には必ず知っていてほしいVue.jsの武器とドキュメントに書かれていないコンポーネントやメンテナンスの際に役立つTips](https://qiita.com/kahirokunn/items/6b4834b9a13406535f32)
+
+
+### Day 56: 2020/06/27
+
+- Today's Progress : vue instance
+- Thoughts :
+- 通常のVueインスタンスと異なり、Vueコンポーネント内の data は data(){} で（関数的に）定義しないといけません。Vueコンポーネントは、Vueインスタンスの拡張なので、data をオブジェクト型で定義すると、元の data と干渉してしまい、意図してるように動かなくなってしまうからです。
+- links[Vue.jsを100時間勉強して分かったこと](https://qiita.com/kskinaba/items/3e8887d45b11f9132012)
+
+
+### Day 57: 2020/06/28
+
+- Today's Progress : vue instance
+- Thoughts :Vueコンポーネントの保存場所は、components ディレクトリを作って、そこに Shared や ServerStatus などのサブディレクトリを作って格納していく設計が一般的です。
+- links[Vue.jsを100時間勉強して分かったこと](https://qiita.com/kskinaba/items/3e8887d45b11f9132012)
+
+
+### Day 58: 2020/06/29
+
+- Today's Progress : vue instance
+- Thoughts :
+- :class="{YOUR_CLASS: boolean}" で動的にCSSを適用できます。
+```
+html
+<div 
+    class="demo" 
+    @click="attachedRed = !attachedRed"
+    :class="{red: attachedRed}"></div>
+```
+:class を複数定義する場合は array で書きます。
+
+- links[Vue.jsを100時間勉強して分かったこと](https://qiita.com/kskinaba/items/3e8887d45b11f9132012)
