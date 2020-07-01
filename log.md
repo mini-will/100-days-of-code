@@ -578,3 +578,16 @@ html
 :class を複数定義する場合は array で書きます。
 
 - links[Vue.jsを100時間勉強して分かったこと](https://qiita.com/kskinaba/items/3e8887d45b11f9132012)
+
+
+### Day 59: 2020/06/30
+
+- Today's Progress : vue ui
+- Thoughts :UIの微調整。vuetifyでUIを調整をしたがうまくレイアウトが配置できない…
+
+### Day 60: 2020/07/01
+
+- Today's Progress : vue component
+- Thoughts :仕事が忙しくてなかなか勉強の時間が取れていない→スキマ時間にUdemyを見よう。componentが呼ばれたときにだけデータ取得をするようにしたいのだがうまくいかない
+
+
