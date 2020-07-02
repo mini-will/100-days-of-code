@@ -590,4 +590,10 @@ html
 - Today's Progress : vue component
 - Thoughts :仕事が忙しくてなかなか勉強の時間が取れていない→スキマ時間にUdemyを見よう。componentが呼ばれたときにだけデータ取得をするようにしたいのだがうまくいかない
 
+### Day 61: 2020/07/01
 
+- Today's Progress : laravel blade
+- Thoughts :laravel bladeサブビューを学んだ。サブビューの呼び出し方は下記
+```
+@include(‘テンプレート名, [‘キー’=>’値’]
+```
