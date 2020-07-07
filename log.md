@@ -590,10 +590,26 @@ html
 - Today's Progress : vue component
 - Thoughts :仕事が忙しくてなかなか勉強の時間が取れていない→スキマ時間にUdemyを見よう。componentが呼ばれたときにだけデータ取得をするようにしたいのだがうまくいかない
 
-### Day 61: 2020/07/01
+### Day 61: 2020/07/02
 
 - Today's Progress : laravel blade
 - Thoughts :laravel bladeサブビューを学んだ。サブビューの呼び出し方は下記
 ```
 @include(‘テンプレート名, [‘キー’=>’値’]
 ```
+
+### Day 62: 2020/07/03
+
+- Today's Progress :css flexbox
+- Thoughts :仕事で相対位置に設定したい値があってやりかたがそもそもわからず考え中。flex-growを勉強中
+- links [CSSで中央寄せする9つの方法（縦・横にセンタリング）](https://saruwakakun.com/html-css/basic/centering)
+
+
+### Day 63: 2020/07/07
+
+- Today's Progress :laravel seeder
+- Thoughts :laravel seederを修正。seederの実行方法で少し悩んだ
+  ```
+  $ php artisan db:seed --class=PhotoTableSeeder
+  ```
+- links [Laravelでシーダーを使う](https://qiita.com/shosho/items/b69db263a494edfe3b21)
