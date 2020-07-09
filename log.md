@@ -608,8 +608,47 @@ html
 ### Day 63: 2020/07/07
 
 - Today's Progress :laravel seeder
-- Thoughts :laravel seederを修正。seederの実行方法で少し悩んだ
+- Thoughts :laravel seederを修正。seederの実行方法で少し悩んだ。classを指定することで単体で実行できる
   ```
   $ php artisan db:seed --class=PhotoTableSeeder
   ```
 - links [Laravelでシーダーを使う](https://qiita.com/shosho/items/b69db263a494edfe3b21)
+
+
+### Day 64: 2020/07/08
+
+- Today's Progress :css display property
+- Thoughts :display: inline-block はたとえば、ソーシャルシェアボタンを横並びに配置するときだったり、メニューバー（ナビゲーションバー）でボタンを横に並べたいときなどに使う
+  ```
+  <div id="nav">
+  　<ul>
+　　   　<li>HOME</li>
+　   　　<li>HTML</li>
+　   　　<li>CSS</li>
+  　</ul>
+</div>
+/* ↓id="nav"の中のulに対してCSSを適用*/
+#nav ul {
+  list-style-type: none; /*箇条書きのポッチを消す*/
+  text-align:center /*左右中央寄せは親要素に対して指定*/
+}
+
+/* ↓id="nav"の中のulの中のliに対してCSSを適用*/
+#nav ul li { 
+  display: inline-block;/*inline-blockにします*/
+  width: 80px;/*幅も指定できる*/
+  padding: 10px 0;/*余白も指定できる*/
+  margin: 10px 0;/*余白も指定できる*/
+  vertical-align: middle;/*縦の表示位置も指定できる*/
+  background: skyblue;/*背景を水色に*/
+  font-weight: bold;/*文字を太字に*/
+  color:white; /*文字色を白に*/
+}
+```
+- links [【CSS】displayの使い方を総まとめ！inlineやblockの違いは？](https://saruwakakun.com/html-css/basic/display)
+
+### Day 65: 2020/07/09
+
+- Today's Progress :css display property
+- Thoughts :cssの基礎をあらためて勉強中。ちょっとしたコードを試すのにjsfiddleが便利
+- links [jsfiddle.net](https://jsfiddle.net/)
