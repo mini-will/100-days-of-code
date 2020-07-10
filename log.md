@@ -652,3 +652,13 @@ html
 - Today's Progress :css display property
 - Thoughts :cssの基礎をあらためて勉強中。ちょっとしたコードを試すのにjsfiddleが便利
 - links [jsfiddle.net](https://jsfiddle.net/)
+
+### Day 66: 2020/07/10
+- Today's Progress :css heigt, width
+- Thoughts :cssの基礎をあらためて勉強中。ちょっとしたコードを試すのにjsfiddleが便利
+  - max-width, min-width,どちらもwidthの%指定と合わせて使うと便利！
+   50%で基本表示させたいけど、◯◯px以上にはしたくない！など
+  - max-width:100%により画面サイズから画像がはみ出ないように設定できる
+  - 縦横比が崩れてしまったときはheight: autoを指定
+
+- links [【CSS】max-widthとmin-widthの使い方まとめ](https://saruwakakun.com/html-css/basic/max-min-width)
