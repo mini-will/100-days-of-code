@@ -662,3 +662,14 @@ html
   - 縦横比が崩れてしまったときはheight: autoを指定
 
 - links [【CSS】max-widthとmin-widthの使い方まとめ](https://saruwakakun.com/html-css/basic/max-min-width)
+
+### Day 67: 2020/07/13
+- Today's Progress :vuex
+- Thoughts :本業が忙しくなかなか時間がとれないので、Udemyをスキマ時間にみて勉強中。
+- links [超Vue.js 完全パック - もう他の教材は買わなくてOK！ (Vue Router, Vuex含む)](https://www.udemy.com/course/vue-js-complete-guide/)
+
+
+### Day 68: 2020/07/26
+- Today's Progress :vue emit
+- Thoughts :dialogをcomponent化したらうまくダイアログ開閉ができくなったのだけどvue emitで解消できた！
+- links [超Vue.js 完全パック - もう他の教材は買わなくてOK！ (Vue Router, Vuex含む)](https://www.udemy.com/course/vue-js-complete-guide/)
