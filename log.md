@@ -673,3 +673,13 @@ html
 - Today's Progress :vue emit
 - Thoughts :dialogをcomponent化したらうまくダイアログ開閉ができくなったのだけどvue emitで解消できた！
 - links [超Vue.js 完全パック - もう他の教材は買わなくてOK！ (Vue Router, Vuex含む)](https://www.udemy.com/course/vue-js-complete-guide/)
+
+
+### Day 69: 2020/07/27
+- Today's Progress :vue directory
+- Thoughts :こちらのページを参考にvue directoryを適正化してスッキリした！
+- links [Vue.js ディレクトリ構成 色々試してみた](https://qiita.com/tockn/items/2ce68b99e0839df52200)
+
+### Day 70: 2020/07/29
+- Today's Progress :vue props
+- Thoughts :propsでデータを渡すときにdialogとprops&emitの組み合わせでやりかたに悩む。dialogのcloseイベントをうまく取得できていないことが問題。
