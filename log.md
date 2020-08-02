@@ -683,3 +683,7 @@ html
 ### Day 70: 2020/07/29
 - Today's Progress :vue props
 - Thoughts :propsでデータを渡すときにdialogとprops&emitの組み合わせでやりかたに悩む。dialogのcloseイベントをうまく取得できていないことが問題。
+
+### Day 71: 2020/08/02
+- Today's Progress :vuetify
+- Thoughts :vuetifyでボタンの中央寄せができずトライ＆エラー。vuetifyの基本から再度勉強し直し中。
