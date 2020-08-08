@@ -687,3 +687,8 @@ html
 ### Day 71: 2020/08/02
 - Today's Progress :vuetify
 - Thoughts :vuetifyでボタンの中央寄せができずトライ＆エラー。vuetifyの基本から再度勉強し直し中。
+
+### Day 72: 2020/08/08
+- Today's Progress :vue 動的class
+- Thoughts :vueで動的にclass名を変更してcssを適用させて、ボタンの見た目を動的に変更することが割と簡単にできてよかった！
+- links [クラスとスタイルのバインディング](https://jp.vuejs.org/v2/guide/class-and-style.html)
