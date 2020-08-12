@@ -692,3 +692,16 @@ html
 - Today's Progress :vue 動的class
 - Thoughts :vueで動的にclass名を変更してcssを適用させて、ボタンの見た目を動的に変更することが割と簡単にできてよかった！
 - links [クラスとスタイルのバインディング](https://jp.vuejs.org/v2/guide/class-and-style.html)
+
+### Day 73: 2020/08/09
+- Today's Progress :vuex mutations
+- Thoughts :mutationでpayloadにオブジェクトを引数として更新をかけたいときにエラーになり少しハマった。オブジェクトのkeyを設定してmutaionを呼び出すことで解決できた
+```
+        this.setDisplayPlayItem({ response: response });
+```
+- links [vuex mutation](https://vuex.vuejs.org/ja/guide/mutations.html)
+
+### Day 74: 2020/08/12
+- Today's Progress :vuex mutations
+- Thoughts :vuex mutationにオブジェクトを渡したときにうまく値が追加できなくて少し悩んだ。デバッグでどういった値がはいってきているのかを調べて解決できた。オブジェクトと配列の取り扱いの理解が浅いことがよくないな。
+- links [vuex mutation](https://vuex.vuejs.org/ja/guide/mutations.html)
