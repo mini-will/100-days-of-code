@@ -705,3 +705,8 @@ html
 - Today's Progress :vuex mutations
 - Thoughts :vuex mutationにオブジェクトを渡したときにうまく値が追加できなくて少し悩んだ。デバッグでどういった値がはいってきているのかを調べて解決できた。オブジェクトと配列の取り扱いの理解が浅いことがよくないな。
 - links [vuex mutation](https://vuex.vuejs.org/ja/guide/mutations.html)
+
+### Day 75: 2020/08/13
+- Today's Progress :vue youtube
+- Thoughts :vueにyoutubeの埋め込み。youtube埋め込みをしたときに表示サイズがうまくできなかったがprops指定を変えて対応できた
+- links [vue-youtube](https://github.com/anteriovieira/vue-youtube#readme)
