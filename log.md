@@ -710,3 +710,8 @@ html
 - Today's Progress :vue youtube
 - Thoughts :vueにyoutubeの埋め込み。youtube埋め込みをしたときに表示サイズがうまくできなかったがprops指定を変えて対応できた
 - links [vue-youtube](https://github.com/anteriovieira/vue-youtube#readme)
+
+### Day 76: 2020/08/19
+- Today's Progress :heroku deploy
+- Thoughts :herokuにdeployしたときに画面が真っ白になるエラーが発生。いろいろ調べて原因はhttp通信をしようとしてエラー担っていることが判明。laravelの設定を変更してうまくいった。
+- links [Laravel5.7: Herokuにデプロイする - Qiita](https://qiita.com/sutara79/items/a173b969474d9f5afe1b)
