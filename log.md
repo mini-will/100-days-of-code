@@ -715,3 +715,9 @@ html
 - Today's Progress :heroku deploy
 - Thoughts :herokuにdeployしたときに画面が真っ白になるエラーが発生。いろいろ調べて原因はhttp通信をしようとしてエラー担っていることが判明。laravelの設定を変更してうまくいった。
 - links [Laravel5.7: Herokuにデプロイする - Qiita](https://qiita.com/sutara79/items/a173b969474d9f5afe1b)
+
+
+### Day 77: 2020/08/23
+- Today's Progress :app design
+- Thoughts :子供向けのアプリなので元気な色合いでデザインを調整。vuetifyでうまく調整できないところの対応が地味に面倒
+- links [Asobiy](https://asobiy.herokuapp.com/)
