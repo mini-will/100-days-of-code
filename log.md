@@ -721,3 +721,8 @@ html
 - Today's Progress :app design
 - Thoughts :子供向けのアプリなので元気な色合いでデザインを調整。vuetifyでうまく調整できないところの対応が地味に面倒
 - links [Asobiy](https://asobiy.herokuapp.com/)
+
+### Day 78: 2020/08/28
+- Today's Progress :app design
+- Thoughts :vuetifyの指定方法がわからない箇所はcssで微調整。vuetifyの利用方針決めておかないと混乱する…
+- links [Asobiy](https://asobiy.herokuapp.com/)
