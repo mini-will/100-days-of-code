@@ -726,3 +726,8 @@ html
 - Today's Progress :app design
 - Thoughts :vuetifyの指定方法がわからない箇所はcssで微調整。vuetifyの利用方針決めておかないと混乱する…
 - links [Asobiy](https://asobiy.herokuapp.com/)
+
+### Day 79: 2020/09/06
+- Today's Progress :laravel検索クエリ
+- Thoughts :複数条件の検索クエリが想定通り動かず調べていたら、フロント側の検索設定引数の問題だった。解決してよかった
+→作成中アプリ [Asobiy](https://asobiy.herokuapp.com/)
