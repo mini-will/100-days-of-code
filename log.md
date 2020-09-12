@@ -731,3 +731,13 @@ html
 - Today's Progress :laravel検索クエリ
 - Thoughts :複数条件の検索クエリが想定通り動かず調べていたら、フロント側の検索設定引数の問題だった。解決してよかった
 →作成中アプリ [Asobiy](https://asobiy.herokuapp.com/)
+
+### Day 80: 2020/09/11
+- Today's Progress :Vue transition
+- Thoughts :transition listを適用したらレイアウトのが崩れてしまい、cssで調整。
+→作成中アプリ [Asobiy](https://asobiy.herokuapp.com/)
+
+### Day 81: 2020/09/12
+- Today's Progress :Vue&laravel
+- Thoughts :laravel seederを利用してcsvデータをtableにinsertを実施。laravelほんと便利
+→作成中アプリ [Asobiy](https://asobiy.herokuapp.com/)
