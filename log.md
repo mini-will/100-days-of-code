@@ -741,3 +741,9 @@ html
 - Today's Progress :Vue&laravel
 - Thoughts :laravel seederを利用してcsvデータをtableにinsertを実施。laravelほんと便利
 →作成中アプリ [Asobiy](https://asobiy.herokuapp.com/)
+
+
+### Day 82: 2020/09/13
+- Today's Progress :READMEの更新
+- Thoughts :READMEがデフォルトのままの状態だったのでアプリの状態に合わせて最新化実施。README書くとあれできてないとかに気づけるな…
+- link :[README](https://github.com/mini-will/asobou)
